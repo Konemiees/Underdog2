@@ -6,10 +6,15 @@ ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Colosseum_MainGateBack
     400000: //RootNode
+    400002: Colosseum_MainGateBack
     2300000: //RootNode
+    2300002: Colosseum_MainGateBack
     3300000: //RootNode
+    3300002: Colosseum_MainGateBack
     4300000: ColosseumMainGate
+    4300002: Colosseum_MainGateBack
   materials:
     importMaterials: 1
     materialName: 0
