@@ -22,7 +22,11 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
+<<<<<<< HEAD
   generateCubemap: 2
+=======
+  generateCubemap: 6
+>>>>>>> 40115ffbe7f42cb2e72f88aa7c76106f41af66b6
   cubemapConvolution: 0
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
