@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: d838bba1798e1694c85bdf850bd9ffb4
+timeCreated: 1438888357
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Colosseum_BasicStand.001
+    100002: Colosseum_BasicStand02.001
+    100004: Colosseum_BasicStand02_Piece.001
+    100006: Colosseum_BasicStand03.001
+    100008: Colosseum_BasicStand03_Piece.001
+    100010: Colosseum_BasicStand04.001
+    100012: Colosseum_Caesar.001
+    100014: Colosseum_Caesar_Reliefs.001
+    100016: Colosseum_Caesar_Stairs.001
+    100018: Colosseum_StandSunBlock01.001
+    100020: Colosseum_StandSunBlock01.002
+    100022: Colosseum_StandSunBlock02.001
+    100024: Colosseum_StandSunBlock02.002
+    100026: Colosseum_SunBlocks.001
+    100028: //RootNode
+    100030: ColosseumMainGate_Coloseum_01
+    100032: ColosseumMainGate_Stand.001
+    100034: ColosseumPiece_01.001
+    100036: ColosseumPiece_02_Coloseum
+    100038: ColosseumPiece_02_Coloseum_Gates
+    100040: Maingate_Wood.001
+    100042: Maingate_Wood.002
+    100044: Rome_Column_Colosseum
+    400000: Colosseum_BasicStand.001
+    400002: Colosseum_BasicStand02.001
+    400004: Colosseum_BasicStand02_Piece.001
+    400006: Colosseum_BasicStand03.001
+    400008: Colosseum_BasicStand03_Piece.001
+    400010: Colosseum_BasicStand04.001
+    400012: Colosseum_Caesar.001
+    400014: Colosseum_Caesar_Reliefs.001
+    400016: Colosseum_Caesar_Stairs.001
+    400018: Colosseum_StandSunBlock01.001
+    400020: Colosseum_StandSunBlock01.002
+    400022: Colosseum_StandSunBlock02.001
+    400024: Colosseum_StandSunBlock02.002
+    400026: Colosseum_SunBlocks.001
+    400028: //RootNode
+    400030: ColosseumMainGate_Coloseum_01
+    400032: ColosseumMainGate_Stand.001
+    400034: ColosseumPiece_01.001
+    400036: ColosseumPiece_02_Coloseum
+    400038: ColosseumPiece_02_Coloseum_Gates
+    400040: Maingate_Wood.001
+    400042: Maingate_Wood.002
+    400044: Rome_Column_Colosseum
+    2300000: Colosseum_BasicStand.001
+    2300002: Colosseum_BasicStand02.001
+    2300004: Colosseum_BasicStand02_Piece.001
+    2300006: Colosseum_BasicStand03.001
+    2300008: Colosseum_BasicStand03_Piece.001
+    2300010: Colosseum_BasicStand04.001
+    2300012: Colosseum_Caesar.001
+    2300014: Colosseum_Caesar_Reliefs.001
+    2300016: Colosseum_Caesar_Stairs.001
+    2300018: Colosseum_StandSunBlock01.001
+    2300020: Colosseum_StandSunBlock01.002
+    2300022: Colosseum_StandSunBlock02.001
+    2300024: Colosseum_StandSunBlock02.002
+    2300026: Colosseum_SunBlocks.001
+    2300028: ColosseumMainGate_Coloseum_01
+    2300030: ColosseumMainGate_Stand.001
+    2300032: ColosseumPiece_01.001
+    2300034: ColosseumPiece_02_Coloseum
+    2300036: ColosseumPiece_02_Coloseum_Gates
+    2300038: Maingate_Wood.001
+    2300040: Maingate_Wood.002
+    2300042: Rome_Column_Colosseum
+    3300000: Colosseum_BasicStand.001
+    3300002: Colosseum_BasicStand02.001
+    3300004: Colosseum_BasicStand02_Piece.001
+    3300006: Colosseum_BasicStand03.001
+    3300008: Colosseum_BasicStand03_Piece.001
+    3300010: Colosseum_BasicStand04.001
+    3300012: Colosseum_Caesar.001
+    3300014: Colosseum_Caesar_Reliefs.001
+    3300016: Colosseum_Caesar_Stairs.001
+    3300018: Colosseum_StandSunBlock01.001
+    3300020: Colosseum_StandSunBlock01.002
+    3300022: Colosseum_StandSunBlock02.001
+    3300024: Colosseum_StandSunBlock02.002
+    3300026: Colosseum_SunBlocks.001
+    3300028: ColosseumMainGate_Coloseum_01
+    3300030: ColosseumMainGate_Stand.001
+    3300032: ColosseumPiece_01.001
+    3300034: ColosseumPiece_02_Coloseum
+    3300036: ColosseumPiece_02_Coloseum_Gates
+    3300038: Maingate_Wood.001
+    3300040: Maingate_Wood.002
+    3300042: Rome_Column_Colosseum
+    4300000: ColosseumPiece_02_Coloseum_Gates
+    4300002: Maingate_Wood.002
+    4300004: Colosseum_SunBlocks.001
+    4300006: Rome_Column_Colosseum
+    4300008: Colosseum_StandSunBlock02.002
+    4300010: Colosseum_StandSunBlock02.001
+    4300012: Colosseum_StandSunBlock01.002
+    4300014: Colosseum_StandSunBlock01.001
+    4300016: ColosseumPiece_02_Coloseum
+    4300018: Colosseum_BasicStand04.001
+    4300020: Colosseum_BasicStand03.001
+    4300022: Colosseum_BasicStand02.001
+    4300024: ColosseumMainGate_Coloseum_01
+    4300026: ColosseumMainGate_Stand.001
+    4300028: Maingate_Wood.001
+    4300030: Colosseum_BasicStand.001
+    4300032: Colosseum_Caesar.001
+    4300034: Colosseum_Caesar_Stairs.001
+    4300036: Colosseum_Caesar_Reliefs.001
+    4300038: ColosseumPiece_01.001
+    4300040: Colosseum_BasicStand03_Piece.001
+    4300042: Colosseum_BasicStand02_Piece.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
