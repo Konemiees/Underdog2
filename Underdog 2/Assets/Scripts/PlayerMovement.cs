@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
 	public float idleWaitTime = 10;
 	public float rollWaitTime = 2;
+	public float turnSpeed = 2;
 
 	float currentSpeed;
 	
@@ -37,6 +38,9 @@ public class PlayerMovement : MonoBehaviour
 	private float turnPoint;
 	private Vector3 turnChangePoint;
 	private Vector3 turnEnd;
+	private Vector3 deltaCam;
+	private float deltaCamTurnPoint;
+	private Vector3 deltaCamEnd;
 
 	
 	void Awake ()
@@ -59,23 +63,45 @@ public class PlayerMovement : MonoBehaviour
 		lastTurn = 0;
 		turnPoint = 1;
 		turnChangePoint = transform.localEulerAngles;
+		deltaCam = Vector3.zero;
 
 	}
 	
 	
 	void FixedUpdate ()
 	{
-		h = Input.GetAxisRaw ("Horizontal");;
+		h = Input.GetAxisRaw ("Horizontal");
 		v = Input.GetAxisRaw ("Vertical");
 				
-		if(h != 0 || v != 0)
+		if (h != 0 || v != 0) {
 			Move (h, v);
+		} else if (deltaCam == Vector3.zero) {
+			deltaCam = Camera.main.transform.localEulerAngles;
+		}
 
 		Animating (h, v);
 		
 	}
-	
-	void Move (float h, float v){
+
+
+
+	//TÄHÄN EI SAA KOSKEA!!!! T:Konsta
+	void Move (float h, float v)
+	{
+
+		if (deltaCam.y != Camera.main.transform.localEulerAngles.y && deltaCam != Vector3.zero) {
+
+			deltaCam.y = Camera.main.transform.localEulerAngles.y - deltaCam.y;
+
+			while(deltaCam.y > 360)
+				deltaCam.y -= 360;
+			while(deltaCam.y <= 0)
+				deltaCam.y += 360;
+		
+			deltaCam.x = 0;deltaCam.z = 0;deltaCamEnd = deltaCam;deltaCam = Vector3.zero;
+		}
+
+
 
 		turn = 0;
 
@@ -122,12 +148,16 @@ public class PlayerMovement : MonoBehaviour
 			turn += 360;
 
 
-		//TÄHÄN EI SAA KOSKEA!!!! T:Konsta
-		if (lastTurn != turn) {
 
-			if(turnChangePoint.y >= 360)
+
+
+		if (lastTurn != turn || deltaCamEnd != Vector3.zero) {
+
+			turnChangePoint -= deltaCamEnd;
+
+			while(turnChangePoint.y >= 360)
 				turnChangePoint.y -= 360;
-			if(turnChangePoint.y < 0)
+			while(turnChangePoint.y < 0)
 				turnChangePoint.y += 360;
 
 			lastTurn = turn;
@@ -139,12 +169,14 @@ public class PlayerMovement : MonoBehaviour
 			if (turnChangePoint.y < 180 && (turn -turnChangePoint.y)> 180)
 				turn -= 360;
 
-			turnEnd = new Vector3 (transform.localEulerAngles.x, turn + Camera.main.transform.localEulerAngles.y, transform.localEulerAngles.z);
+			turnEnd = new Vector3 (transform.localEulerAngles.x, turn, transform.localEulerAngles.z);
+
+			deltaCamEnd = Vector3.zero;
 		}
 
 
 		if (turnPoint < 1) {
-			turnPoint += Time.deltaTime *2;
+			turnPoint += Time.deltaTime *turnSpeed;
 		} else {
 			turnPoint = 1;
 		}
@@ -157,12 +189,17 @@ public class PlayerMovement : MonoBehaviour
 
 		if(jumped){
 			currentSpeedGrav = jumpHeight;
-		}**/
+		}*/
 
-		transform.localEulerAngles = turnChangePoint;
+		transform.localEulerAngles = turnChangePoint + new Vector3(0, Camera.main.transform.localEulerAngles.y, 0);
+
+
 		
 
 	}
+
+
+
 
 	
 	void Animating (float h, float v)
