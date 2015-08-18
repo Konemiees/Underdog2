@@ -29,6 +29,12 @@ ModelImporter:
     100042: Maingate_Wood.001
     100044: Maingate_Wood.002
     100046: Rome_Column_Colosseum
+    100048: ColosseumMainGateInside.001
+    100050: ColosseumMainGateInside.002
+    100052: ColosseumPiece_02.002
+    100054: ColosseumPiece_02.003
+    100056: ColosseumPiece_02.004
+    100058: ColosseumPiece_02.005
     400000: Caesar_Cabin.001
     400002: Colosseum_BasicStand.001
     400004: Colosseum_BasicStand02.001
@@ -53,6 +59,12 @@ ModelImporter:
     400042: Maingate_Wood.001
     400044: Maingate_Wood.002
     400046: Rome_Column_Colosseum
+    400048: ColosseumMainGateInside.001
+    400050: ColosseumMainGateInside.002
+    400052: ColosseumPiece_02.002
+    400054: ColosseumPiece_02.003
+    400056: ColosseumPiece_02.004
+    400058: ColosseumPiece_02.005
     2300000: Caesar_Cabin.001
     2300002: Colosseum_BasicStand.001
     2300004: Colosseum_BasicStand02.001
@@ -76,6 +88,12 @@ ModelImporter:
     2300040: Maingate_Wood.001
     2300042: Maingate_Wood.002
     2300044: Rome_Column_Colosseum
+    2300046: ColosseumMainGateInside.001
+    2300048: ColosseumMainGateInside.002
+    2300050: ColosseumPiece_02.002
+    2300052: ColosseumPiece_02.003
+    2300054: ColosseumPiece_02.004
+    2300056: ColosseumPiece_02.005
     3300000: Caesar_Cabin.001
     3300002: Colosseum_BasicStand.001
     3300004: Colosseum_BasicStand02.001
@@ -99,6 +117,12 @@ ModelImporter:
     3300040: Maingate_Wood.001
     3300042: Maingate_Wood.002
     3300044: Rome_Column_Colosseum
+    3300046: ColosseumMainGateInside.001
+    3300048: ColosseumMainGateInside.002
+    3300050: ColosseumPiece_02.002
+    3300052: ColosseumPiece_02.003
+    3300054: ColosseumPiece_02.004
+    3300056: ColosseumPiece_02.005
     4300000: ColosseumPiece_02_Coloseum_Gates
     4300002: Maingate_Wood.002
     4300004: Colosseum_SunBlocks.001
@@ -122,6 +146,12 @@ ModelImporter:
     4300040: ColosseumPiece_01.001
     4300042: Colosseum_BasicStand03_Piece.001
     4300044: Colosseum_BasicStand02_Piece.001
+    4300046: ColosseumMainGateInside.002
+    4300048: ColosseumMainGateInside.001
+    4300050: ColosseumPiece_02.005
+    4300052: ColosseumPiece_02.004
+    4300054: ColosseumPiece_02.003
+    4300056: ColosseumPiece_02.002
   materials:
     importMaterials: 1
     materialName: 0

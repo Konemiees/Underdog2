@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 6d96314314c84a2489b8b2164cc7f9d6
-timeCreated: 1437592164
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     8900000: generatedCubemap
@@ -22,11 +20,7 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-<<<<<<< HEAD
   generateCubemap: 2
-=======
-  generateCubemap: 6
->>>>>>> 40115ffbe7f42cb2e72f88aa7c76106f41af66b6
   cubemapConvolution: 0
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
@@ -37,7 +31,7 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 1
   lightmap: 0
   rGBM: 0
@@ -50,7 +44,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 0
-  textureType: 5
+  textureType: 3
   buildTargetSettings: []
   spriteSheet:
     sprites: []
