@@ -88,68 +88,6 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &35302764
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_PrefabInternal: {fileID: 1195084558}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 35302765}
-  - 33: {fileID: 35302767}
-  - 23: {fileID: 35302766}
-  m_Layer: 0
-  m_Name: Colosseum_Column_01 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &35302765
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_PrefabInternal: {fileID: 1195084558}
-  m_GameObject: {fileID: 35302764}
-  m_LocalRotation: {x: -.500000596, y: -.499999434, z: -.499999553, w: .500000596}
-  m_LocalPosition: {x: 56.5400009, y: 0, z: 3.05999994}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 46
---- !u!23 &35302766
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 6447592837fa5044aa288607ea79c145,
-    type: 3}
-  m_PrefabInternal: {fileID: 1195084558}
-  m_GameObject: {fileID: 35302764}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: bb3e61cad8e7f414892bb47f16fac0da, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &35302767
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 6447592837fa5044aa288607ea79c145,
-    type: 3}
-  m_PrefabInternal: {fileID: 1195084558}
-  m_GameObject: {fileID: 35302764}
-  m_Mesh: {fileID: 4300000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
 --- !u!1001 &41088261
 Prefab:
   m_ObjectHideFlags: 0
@@ -215,70 +153,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 371388427}
   m_IsPrefabParent: 0
---- !u!1 &81164951
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1441512459}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 81164952}
-  - 33: {fileID: 81164954}
-  - 23: {fileID: 81164953}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (20)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &81164952
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1441512459}
-  m_GameObject: {fileID: 81164951}
-  m_LocalRotation: {x: .685573399, y: .173174247, z: .173174113, w: -.68557322}
-  m_LocalPosition: {x: 41.2000008, y: 3, z: -22.9374599}
-  m_LocalScale: {x: .80000037, y: .800000012, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 23
---- !u!23 &81164953
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1441512459}
-  m_GameObject: {fileID: 81164951}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &81164954
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1441512459}
-  m_GameObject: {fileID: 81164951}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
 --- !u!1001 &114876149
 Prefab:
   m_ObjectHideFlags: 0
@@ -336,70 +211,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 1709203077}
   m_IsPrefabParent: 0
---- !u!1 &124657365
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1475236702}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 124657366}
-  - 33: {fileID: 124657368}
-  - 23: {fileID: 124657367}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &124657366
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1475236702}
-  m_GameObject: {fileID: 124657365}
-  m_LocalRotation: {x: -.57069248, y: .417504668, z: .417504668, w: .57069248}
-  m_LocalPosition: {x: -57.2599983, y: 3, z: -6.03999996}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 37
---- !u!23 &124657367
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1475236702}
-  m_GameObject: {fileID: 124657365}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &124657368
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1475236702}
-  m_GameObject: {fileID: 124657365}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
 --- !u!1001 &173144359
 Prefab:
   m_ObjectHideFlags: 0
@@ -465,132 +277,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 278546049}
   m_IsPrefabParent: 0
---- !u!1 &185282239
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1048398629}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 185282240}
-  - 33: {fileID: 185282242}
-  - 23: {fileID: 185282241}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &185282240
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1048398629}
-  m_GameObject: {fileID: 185282239}
-  m_LocalRotation: {x: -.0492882431, y: .705386937, z: .705386937, w: .0492882803}
-  m_LocalPosition: {x: -17.9699993, y: 3, z: 28.2000008}
-  m_LocalScale: {x: .80000037, y: .800000012, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 42
---- !u!23 &185282241
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1048398629}
-  m_GameObject: {fileID: 185282239}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &185282242
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1048398629}
-  m_GameObject: {fileID: 185282239}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &233507550
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1060197832}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 233507551}
-  - 33: {fileID: 233507553}
-  - 23: {fileID: 233507552}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &233507551
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1060197832}
-  m_GameObject: {fileID: 233507550}
-  m_LocalRotation: {x: -.706888497, y: .0175704025, z: .0175704025, w: .706888497}
-  m_LocalPosition: {x: -6.05999994, y: 3, z: -29.1900005}
-  m_LocalScale: {x: .800000548, y: .799999833, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 32
---- !u!23 &233507552
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1060197832}
-  m_GameObject: {fileID: 233507550}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &233507553
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1060197832}
-  m_GameObject: {fileID: 233507550}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
 --- !u!1001 &241805209
 Prefab:
   m_ObjectHideFlags: 0
@@ -656,7 +343,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 2030736537}
   m_IsPrefabParent: 0
 --- !u!1001 &262338999
 Prefab:
@@ -715,70 +401,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
-  m_RootGameObject: {fileID: 1770035282}
   m_IsPrefabParent: 0
---- !u!1 &278546049
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 173144359}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 278546050}
-  - 33: {fileID: 278546052}
-  - 23: {fileID: 278546051}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (22)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &278546050
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 173144359}
-  m_GameObject: {fileID: 278546049}
-  m_LocalRotation: {x: .705387056, y: .0492898822, z: .0492897853, w: -.705386519}
-  m_LocalPosition: {x: 17.8999996, y: 3, z: -28.3975544}
-  m_LocalScale: {x: .80000037, y: .800000191, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 21
---- !u!23 &278546051
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 173144359}
-  m_GameObject: {fileID: 278546049}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &278546052
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 173144359}
-  m_GameObject: {fileID: 278546049}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
 --- !u!1001 &297411691
 Prefab:
   m_ObjectHideFlags: 0
@@ -844,70 +467,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 1237100489}
   m_IsPrefabParent: 0
---- !u!1 &325503499
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100026, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 325503500}
-  - 33: {fileID: 325503502}
-  - 23: {fileID: 325503501}
-  m_Layer: 0
-  m_Name: Colosseum_StandSunBlock02.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &325503500
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400026, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 325503499}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: -44, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 13
---- !u!23 &325503501
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300026, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 325503499}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 0a74cb6d9d8347f498c965d6919c81e3, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &325503502
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300026, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 325503499}
-  m_Mesh: {fileID: 4300010, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
 --- !u!1001 &330651568
 Prefab:
   m_ObjectHideFlags: 0
@@ -973,70 +533,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 899533075}
   m_IsPrefabParent: 0
---- !u!1 &341989775
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100034, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 341989776}
-  - 33: {fileID: 341989778}
-  - 23: {fileID: 341989777}
-  m_Layer: 0
-  m_Name: ColosseumMainGate_Stand.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &341989776
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400034, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 341989775}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 72, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 16
---- !u!23 &341989777
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300032, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 341989775}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 81293df901d905242885ec3e60260338, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &341989778
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300032, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 341989775}
-  m_Mesh: {fileID: 4300028, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
 --- !u!1001 &361037621
 Prefab:
   m_ObjectHideFlags: 0
@@ -1102,318 +599,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 695780529}
   m_IsPrefabParent: 0
---- !u!1 &371388427
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 41088261}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 371388428}
-  - 33: {fileID: 371388430}
-  - 23: {fileID: 371388429}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (15)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &371388428
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 41088261}
-  m_GameObject: {fileID: 371388427}
-  m_LocalRotation: {x: .120545529, y: .696755946, z: .696755946, w: -.120545462}
-  m_LocalPosition: {x: 41.0999985, y: 3, z: 22.6025429}
-  m_LocalScale: {x: .800000548, y: .800000012, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 28
---- !u!23 &371388429
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 41088261}
-  m_GameObject: {fileID: 371388427}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &371388430
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 41088261}
-  m_GameObject: {fileID: 371388427}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &371925173
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_PrefabInternal: {fileID: 1353218570}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 371925174}
-  - 33: {fileID: 371925176}
-  - 23: {fileID: 371925175}
-  m_Layer: 0
-  m_Name: Colosseum_Column_01 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &371925174
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_PrefabInternal: {fileID: 1353218570}
-  m_GameObject: {fileID: 371925173}
-  m_LocalRotation: {x: -.500000596, y: -.499999434, z: -.499999553, w: .500000596}
-  m_LocalPosition: {x: -56.3199997, y: 0, z: 3.05999994}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 45
---- !u!23 &371925175
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 6447592837fa5044aa288607ea79c145,
-    type: 3}
-  m_PrefabInternal: {fileID: 1353218570}
-  m_GameObject: {fileID: 371925173}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: bb3e61cad8e7f414892bb47f16fac0da, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &371925176
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 6447592837fa5044aa288607ea79c145,
-    type: 3}
-  m_PrefabInternal: {fileID: 1353218570}
-  m_GameObject: {fileID: 371925173}
-  m_Mesh: {fileID: 4300000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
---- !u!1 &415304560
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100060, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 415304561}
-  - 33: {fileID: 415304563}
-  - 23: {fileID: 415304562}
-  m_Layer: 0
-  m_Name: Colosseum_BasicStand.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &415304561
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400060, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 415304560}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 2
---- !u!23 &415304562
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300058, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 415304560}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: fd1b8260199e4ca45b12814424041a34, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &415304563
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300058, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 415304560}
-  m_Mesh: {fileID: 4300058, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &425165975
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100020, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 425165976}
-  - 33: {fileID: 425165978}
-  - 23: {fileID: 425165977}
-  m_Layer: 0
-  m_Name: Colosseum_StandSunBlock01.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &425165976
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400020, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 425165975}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 10
---- !u!23 &425165977
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300020, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 425165975}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 0a74cb6d9d8347f498c965d6919c81e3, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &425165978
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300020, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 425165975}
-  m_Mesh: {fileID: 4300016, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &439817140
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1170895130}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 439817141}
-  - 33: {fileID: 439817143}
-  - 23: {fileID: 439817142}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &439817141
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1170895130}
-  m_GameObject: {fileID: 439817140}
-  m_LocalRotation: {x: -.423345953, y: .566372871, z: .566372871, w: .423345953}
-  m_LocalPosition: {x: -57.5099983, y: 3, z: 6.03000021}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 38
---- !u!23 &439817142
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1170895130}
-  m_GameObject: {fileID: 439817140}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &439817143
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1170895130}
-  m_GameObject: {fileID: 439817140}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
 --- !u!1 &445986453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,7 +617,7 @@ GameObject:
   - 114: {fileID: 445986459}
   - 114: {fileID: 445986463}
   - 114: {fileID: 445986462}
-  - 95: {fileID: 445986464}
+  - 114: {fileID: 445986464}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1499,8 +685,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 445986453}
-  m_LocalRotation: {x: -.0435348824, y: -.751606286, z: -.0498581454, w: .656282663}
-  m_LocalPosition: {x: 40.4199982, y: 1.37, z: 4.69000006}
+  m_LocalRotation: {x: .0174524076, y: 0, z: 0, w: .99984771}
+  m_LocalPosition: {x: 0, y: 2, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1711,23 +897,25 @@ MonoBehaviour:
     type: 3}
   colorCorrectionSelectiveShader: {fileID: 4800000, guid: e515e0f94cefc4c0db54b45cba621544,
     type: 3}
---- !u!95 &445986464
-Animator:
-  serializedVersion: 3
+--- !u!114 &445986464
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 445986453}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a32619f7f12ddbd4fa63393cfa26ab95, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b291d894d6b3ac469c9ab598b55a8f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1122898548}
+  smoothing: 5
+  distance: 5
+  xSpeed: 2
+  ySpeed: 1
+  cameraLowLimit: 0
+  cameraUpAngleLimit: 58
+  cameraCloseLimit: 1
 --- !u!1001 &472611347
 Prefab:
   m_ObjectHideFlags: 0
@@ -1793,7 +981,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 1089724930}
   m_IsPrefabParent: 0
 --- !u!1001 &504464625
 Prefab:
@@ -1860,70 +1047,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 1820593507}
   m_IsPrefabParent: 0
---- !u!1 &528423126
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100040, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 528423127}
-  - 33: {fileID: 528423129}
-  - 23: {fileID: 528423128}
-  m_Layer: 0
-  m_Name: ColosseumPiece_02_Coloseum_Gates
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &528423127
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400040, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 528423126}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: -42, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 56
---- !u!23 &528423128
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300038, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 528423126}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &528423129
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300038, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 528423126}
-  m_Mesh: {fileID: 4300000, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
 --- !u!1001 &548434220
 Prefab:
   m_ObjectHideFlags: 0
@@ -1989,256 +1113,117 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 1945767345}
   m_IsPrefabParent: 0
---- !u!1 &563458179
-GameObject:
+--- !u!1001 &659884900
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100056, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 563458180}
-  - 33: {fileID: 563458182}
-  - 23: {fileID: 563458181}
-  m_Layer: 0
-  m_Name: ColosseumPiece_02.004
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &563458180
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400056, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 563458179}
-  m_LocalRotation: {x: -.0779327899, y: .702799022, z: .702799022, w: .0779327899}
-  m_LocalPosition: {x: -29.7903271, y: 3.25373462e-09, z: 26.1613884}
-  m_LocalScale: {x: .999999821, y: .999999821, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 52
---- !u!23 &563458181
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300054, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 563458179}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 093eb44511613bf48b983b60fbbeb2f8, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &563458182
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300054, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 563458179}
-  m_Mesh: {fileID: 4300052, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &570743425
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100012, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 570743426}
-  - 33: {fileID: 570743428}
-  - 23: {fileID: 570743427}
-  m_Layer: 0
-  m_Name: Colosseum_BasicStand04.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &570743426
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400012, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 570743425}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 7
---- !u!23 &570743427
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300012, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 570743425}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 81293df901d905242885ec3e60260338, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &570743428
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300012, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 570743425}
-  m_Mesh: {fileID: 4300020, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &654834958
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1171193018}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 654834959}
-  - 33: {fileID: 654834961}
-  - 23: {fileID: 654834960}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (16)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &654834959
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1171193018}
-  m_GameObject: {fileID: 654834958}
-  m_LocalRotation: {x: .271382272, y: .652956128, z: .652956128, w: -.271382213}
-  m_LocalPosition: {x: 51.2000008, y: 3, z: 16.0925903}
-  m_LocalScale: {x: .800000072, y: .800000072, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 27
---- !u!23 &654834960
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1171193018}
-  m_GameObject: {fileID: 654834958}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &654834961
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1171193018}
-  m_GameObject: {fileID: 654834958}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &682844516
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100038, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 682844517}
-  - 33: {fileID: 682844519}
-  - 23: {fileID: 682844518}
-  m_Layer: 0
-  m_Name: ColosseumPiece_02_Coloseum
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &682844517
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400038, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 682844516}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: -42, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 57
---- !u!23 &682844518
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300036, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 682844516}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 6dbf4931a9cba1147bdc7ef942cb7b7f, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &682844519
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300036, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 682844516}
-  m_Mesh: {fileID: 4300018, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400696, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400696, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400696, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400696, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400696, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400696, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400696, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400696, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400152, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -.280975819
+      objectReference: {fileID: 0}
+    - target: {fileID: 400152, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .576224267
+      objectReference: {fileID: 0}
+    - target: {fileID: 400152, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: .559124053
+      objectReference: {fileID: 0}
+    - target: {fileID: 400152, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .525736272
+      objectReference: {fileID: 0}
+    - target: {fileID: 400352, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: .753084481
+      objectReference: {fileID: 0}
+    - target: {fileID: 400352, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -.641947567
+      objectReference: {fileID: 0}
+    - target: {fileID: 400352, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -.0515937246
+      objectReference: {fileID: 0}
+    - target: {fileID: 400352, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .134555861
+      objectReference: {fileID: 0}
+    - target: {fileID: 400308, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: .410463095
+      objectReference: {fileID: 0}
+    - target: {fileID: 400308, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -.357214957
+      objectReference: {fileID: 0}
+    - target: {fileID: 400308, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -.636571169
+      objectReference: {fileID: 0}
+    - target: {fileID: 400308, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .54652977
+      objectReference: {fileID: 0}
+    - target: {fileID: 400388, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -.761280715
+      objectReference: {fileID: 0}
+    - target: {fileID: 400388, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -.269670486
+      objectReference: {fileID: 0}
+    - target: {fileID: 400388, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -.290099919
+      objectReference: {fileID: 0}
+    - target: {fileID: 400388, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .51339227
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c31380d81b44d0a41a615ea49db1f5ee, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1001 &685732758
 Prefab:
   m_ObjectHideFlags: 0
@@ -2300,209 +1285,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
-  m_RootGameObject: {fileID: 1018440116}
   m_IsPrefabParent: 0
---- !u!1 &695780529
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 361037621}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 695780530}
-  - 33: {fileID: 695780532}
-  - 23: {fileID: 695780531}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (21)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &695780530
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 361037621}
-  m_GameObject: {fileID: 695780529}
-  m_LocalRotation: {x: .700949728, y: .0931105316, z: .0931104794, w: -.700949609}
-  m_LocalPosition: {x: 29.7999992, y: 3, z: -26.5575085}
-  m_LocalScale: {x: .80000037, y: .800000191, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 22
---- !u!23 &695780531
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 361037621}
-  m_GameObject: {fileID: 695780529}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &695780532
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 361037621}
-  m_GameObject: {fileID: 695780529}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &702446433
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100030, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1508425280}
-  m_Layer: 0
-  m_Name: Colosseum_test
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &752244224
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1617528886}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 752244225}
-  - 33: {fileID: 752244227}
-  - 23: {fileID: 752244226}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &752244225
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1617528886}
-  m_GameObject: {fileID: 752244224}
-  m_LocalRotation: {x: -.652955472, y: .271383703, z: .271383703, w: .652955472}
-  m_LocalPosition: {x: -51.3199997, y: 3, z: -16.2900009}
-  m_LocalScale: {x: .800000072, y: .800000072, z: .800000191}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 36
---- !u!23 &752244226
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1617528886}
-  m_GameObject: {fileID: 752244224}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &752244227
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1617528886}
-  m_GameObject: {fileID: 752244224}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &899533075
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 330651568}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 899533076}
-  - 33: {fileID: 899533078}
-  - 23: {fileID: 899533077}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &899533076
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 330651568}
-  m_GameObject: {fileID: 899533075}
-  m_LocalRotation: {x: -.70608151, y: .0380640998, z: .0380640998, w: .70608151}
-  m_LocalPosition: {x: -17.9099998, y: 3, z: -28.2299995}
-  m_LocalScale: {x: .800000191, y: .800000191, z: .800000191}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 33
---- !u!23 &899533077
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 330651568}
-  m_GameObject: {fileID: 899533075}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &899533078
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 330651568}
-  m_GameObject: {fileID: 899533075}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
 --- !u!1001 &912557697
 Prefab:
   m_ObjectHideFlags: 0
@@ -2568,70 +1351,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 2087463443}
   m_IsPrefabParent: 0
---- !u!1 &923436209
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 2020220465}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 923436210}
-  - 33: {fileID: 923436212}
-  - 23: {fileID: 923436211}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (23)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &923436210
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 2020220465}
-  m_GameObject: {fileID: 923436209}
-  m_LocalRotation: {x: .707106829, y: 3.24100256e-06, z: 3.20756271e-06, w: -.707106829}
-  m_LocalPosition: {x: 4.9000001, y: 3, z: -29.1976166}
-  m_LocalScale: {x: .800000012, y: .800000012, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 20
---- !u!23 &923436211
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 2020220465}
-  m_GameObject: {fileID: 923436209}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &923436212
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 2020220465}
-  m_GameObject: {fileID: 923436209}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
 --- !u!1001 &928545075
 Prefab:
   m_ObjectHideFlags: 0
@@ -2697,195 +1417,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 1426548622}
   m_IsPrefabParent: 0
---- !u!1 &971530988
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_PrefabInternal: {fileID: 1862831694}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 971530989}
-  - 33: {fileID: 971530991}
-  - 23: {fileID: 971530990}
-  m_Layer: 0
-  m_Name: Colosseum_Column_01 (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &971530989
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_PrefabInternal: {fileID: 1862831694}
-  m_GameObject: {fileID: 971530988}
-  m_LocalRotation: {x: -.500000596, y: -.499999434, z: -.499999553, w: .500000596}
-  m_LocalPosition: {x: -56.3199997, y: 0, z: -3.08999991}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 44
---- !u!23 &971530990
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 6447592837fa5044aa288607ea79c145,
-    type: 3}
-  m_PrefabInternal: {fileID: 1862831694}
-  m_GameObject: {fileID: 971530988}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: bb3e61cad8e7f414892bb47f16fac0da, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &971530991
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 6447592837fa5044aa288607ea79c145,
-    type: 3}
-  m_PrefabInternal: {fileID: 1862831694}
-  m_GameObject: {fileID: 971530988}
-  m_Mesh: {fileID: 4300000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
---- !u!1 &1016101492
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
-  m_PrefabInternal: {fileID: 685732758}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1016101493}
-  - 33: {fileID: 1016101495}
-  - 23: {fileID: 1016101494}
-  m_Layer: 0
-  m_Name: CaesarPilar_Accessories
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1016101493
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
-  m_PrefabInternal: {fileID: 685732758}
-  m_GameObject: {fileID: 1016101492}
-  m_LocalRotation: {x: 0, y: 7.45058149e-09, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -2.38418579e-07, z: 9.53674316e-07}
-  m_LocalScale: {x: 1.99999976, y: 2, z: 2}
-  m_Children: []
-  m_Father: {fileID: 1018440117}
-  m_RootOrder: 0
---- !u!23 &1016101494
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300002, guid: 5cf817b5437b09a45ad09760c6e36953,
-    type: 3}
-  m_PrefabInternal: {fileID: 685732758}
-  m_GameObject: {fileID: 1016101492}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: f0ff48ed181c6c84e8774048344dabcc, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1016101495
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300002, guid: 5cf817b5437b09a45ad09760c6e36953,
-    type: 3}
-  m_PrefabInternal: {fileID: 685732758}
-  m_GameObject: {fileID: 1016101492}
-  m_Mesh: {fileID: 4300002, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
---- !u!1 &1018440116
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
-  m_PrefabInternal: {fileID: 685732758}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1018440117}
-  - 33: {fileID: 1018440119}
-  - 23: {fileID: 1018440118}
-  m_Layer: 0
-  m_Name: CaesarPilar_01 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1018440117
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
-  m_PrefabInternal: {fileID: 685732758}
-  m_GameObject: {fileID: 1018440116}
-  m_LocalRotation: {x: -2.70177793e-07, y: .707106829, z: .707106769, w: 2.60770349e-07}
-  m_LocalPosition: {x: 3, y: 3, z: 27.6000004}
-  m_LocalScale: {x: .5, y: .5, z: .5}
-  m_Children:
-  - {fileID: 1016101493}
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 48
---- !u!23 &1018440118
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 5cf817b5437b09a45ad09760c6e36953,
-    type: 3}
-  m_PrefabInternal: {fileID: 685732758}
-  m_GameObject: {fileID: 1018440116}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: bb3e61cad8e7f414892bb47f16fac0da, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1018440119
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 5cf817b5437b09a45ad09760c6e36953,
-    type: 3}
-  m_PrefabInternal: {fileID: 685732758}
-  m_GameObject: {fileID: 1018440116}
-  m_Mesh: {fileID: 4300000, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
 --- !u!1001 &1048398629
 Prefab:
   m_ObjectHideFlags: 0
@@ -2951,7 +1483,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 185282239}
   m_IsPrefabParent: 0
 --- !u!1001 &1060197832
 Prefab:
@@ -3018,7 +1549,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 233507550}
   m_IsPrefabParent: 0
 --- !u!1 &1089481082
 GameObject:
@@ -3093,68 +1623,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
---- !u!1 &1089724930
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 472611347}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1089724931}
-  - 33: {fileID: 1089724933}
-  - 23: {fileID: 1089724932}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (12)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1089724931
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 472611347}
-  m_GameObject: {fileID: 1089724930}
-  m_LocalRotation: {x: .0175688416, y: .706888437, z: .706888556, w: -.0175687447}
-  m_LocalPosition: {x: 6, y: 3, z: 28.992384}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 31
---- !u!23 &1089724932
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 472611347}
-  m_GameObject: {fileID: 1089724930}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1089724933
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 472611347}
-  m_GameObject: {fileID: 1089724930}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
 --- !u!1001 &1109838508
 Prefab:
   m_ObjectHideFlags: 0
@@ -3204,70 +1672,52 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_RootGameObject: {fileID: 1154976708}
   m_IsPrefabParent: 0
---- !u!1 &1154976708
+--- !u!1 &1122898547 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_PrefabInternal: {fileID: 1109838508}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1154976709}
-  - 33: {fileID: 1154976711}
-  - 23: {fileID: 1154976710}
-  m_Layer: 0
-  m_Name: Colosseum_Column_01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1154976709
+  m_PrefabParentObject: {fileID: 100696, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+  m_PrefabInternal: {fileID: 659884900}
+--- !u!4 &1122898548 stripped
 Transform:
+  m_PrefabParentObject: {fileID: 400696, guid: de5e1c2049db82b4593ef2cce9c3d90d, type: 3}
+  m_PrefabInternal: {fileID: 659884900}
+--- !u!114 &1122898550
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_PrefabInternal: {fileID: 1109838508}
-  m_GameObject: {fileID: 1154976708}
-  m_LocalRotation: {x: -.500000596, y: -.499999434, z: -.499999553, w: .500000596}
-  m_LocalPosition: {x: 56.5400009, y: 0, z: -3.08999991}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 47
---- !u!23 &1154976710
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 6447592837fa5044aa288607ea79c145,
-    type: 3}
-  m_PrefabInternal: {fileID: 1109838508}
-  m_GameObject: {fileID: 1154976708}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1122898547}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: bb3e61cad8e7f414892bb47f16fac0da, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1154976711
-MeshFilter:
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f691260593d8e6242a78e422b10ff737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rollWaitTime: 2
+--- !u!114 &1122898551
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 6447592837fa5044aa288607ea79c145,
-    type: 3}
-  m_PrefabInternal: {fileID: 1109838508}
-  m_GameObject: {fileID: 1154976708}
-  m_Mesh: {fileID: 4300000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1122898547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9acf921b4e1695409e802887e5808cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 2
+--- !u!136 &1122898552
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1122898547}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: .5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1170895130
 Prefab:
   m_ObjectHideFlags: 0
@@ -3325,7 +1775,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 439817140}
   m_IsPrefabParent: 0
 --- !u!1001 &1171193018
 Prefab:
@@ -3392,70 +1841,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 654834958}
   m_IsPrefabParent: 0
---- !u!1 &1179575146
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100018, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1179575147}
-  - 33: {fileID: 1179575149}
-  - 23: {fileID: 1179575148}
-  m_Layer: 0
-  m_Name: Colosseum_Caesar_Stairs.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1179575147
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400018, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1179575146}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 9
---- !u!23 &1179575148
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300018, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1179575146}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 81293df901d905242885ec3e60260338, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1179575149
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300018, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1179575146}
-  m_Mesh: {fileID: 4300036, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
 --- !u!1001 &1195084558
 Prefab:
   m_ObjectHideFlags: 0
@@ -3509,318 +1895,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_RootGameObject: {fileID: 35302764}
   m_IsPrefabParent: 0
---- !u!1 &1230166205
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100048, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1230166206}
-  - 33: {fileID: 1230166208}
-  - 23: {fileID: 1230166207}
-  m_Layer: 0
-  m_Name: ColosseumMainGateInside.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1230166206
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400048, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1230166205}
-  m_LocalRotation: {x: -.50000006, y: -.49999997, z: -.49999997, w: .50000006}
-  m_LocalPosition: {x: 56.68993, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 17
---- !u!23 &1230166207
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300046, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1230166205}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 093eb44511613bf48b983b60fbbeb2f8, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1230166208
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300046, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1230166205}
-  m_Mesh: {fileID: 4300048, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &1237100489
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 297411691}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1237100490}
-  - 33: {fileID: 1237100492}
-  - 23: {fileID: 1237100491}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1237100490
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 297411691}
-  m_GameObject: {fileID: 1237100489}
-  m_LocalRotation: {x: -.287970126, y: .645812094, z: .645812094, w: .287970126}
-  m_LocalPosition: {x: -51.3199997, y: 3, z: 16.1900005}
-  m_LocalScale: {x: .800000191, y: .799999952, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 39
---- !u!23 &1237100491
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 297411691}
-  m_GameObject: {fileID: 1237100489}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1237100492
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 297411691}
-  m_GameObject: {fileID: 1237100489}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &1262524306
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100004, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1262524307}
-  - 33: {fileID: 1262524309}
-  - 23: {fileID: 1262524308}
-  m_Layer: 0
-  m_Name: Colosseum_BasicStand02.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1262524307
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400004, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1262524306}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 3
---- !u!23 &1262524308
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300004, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1262524306}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 81293df901d905242885ec3e60260338, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1262524309
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300004, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1262524306}
-  m_Mesh: {fileID: 4300024, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &1266638200
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100016, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1266638201}
-  - 33: {fileID: 1266638203}
-  - 23: {fileID: 1266638202}
-  m_Layer: 0
-  m_Name: Colosseum_Caesar_Reliefs.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1266638201
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400016, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1266638200}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 1.1920929e-07, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1851893127}
-  m_RootOrder: 0
---- !u!23 &1266638202
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300016, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1266638200}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1266638203
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300016, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1266638200}
-  m_Mesh: {fileID: 4300038, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &1290683060
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100024, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1290683061}
-  - 33: {fileID: 1290683063}
-  - 23: {fileID: 1290683062}
-  m_Layer: 0
-  m_Name: Colosseum_StandSunBlock02.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1290683061
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400024, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1290683060}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: -3, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 12
---- !u!23 &1290683062
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300024, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1290683060}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 0a74cb6d9d8347f498c965d6919c81e3, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1290683063
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300024, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1290683060}
-  m_Mesh: {fileID: 4300012, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
 --- !u!1001 &1295995364
 Prefab:
   m_ObjectHideFlags: 0
@@ -3886,132 +1961,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 1585285013}
   m_IsPrefabParent: 0
---- !u!1 &1302941516
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100042, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1302941517}
-  - 33: {fileID: 1302941519}
-  - 23: {fileID: 1302941518}
-  m_Layer: 0
-  m_Name: Maingate_Wood.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1302941517
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400042, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1302941516}
-  m_LocalRotation: {x: -.50000006, y: .5, z: .5, w: .50000006}
-  m_LocalPosition: {x: 57.6245079, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 55
---- !u!23 &1302941518
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300040, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1302941516}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1302941519
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300040, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1302941516}
-  m_Mesh: {fileID: 4300030, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &1326750889
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100054, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1326750890}
-  - 33: {fileID: 1326750892}
-  - 23: {fileID: 1326750891}
-  m_Layer: 0
-  m_Name: ColosseumPiece_02.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1326750890
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400054, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1326750889}
-  m_LocalRotation: {x: .14643696, y: .691777587, z: .691777587, w: -.14643696}
-  m_LocalPosition: {x: 41.1664162, y: -1.41466716e-09, z: 22.5361462}
-  m_LocalScale: {x: 1, y: .999999881, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 51
---- !u!23 &1326750891
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300052, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1326750889}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 093eb44511613bf48b983b60fbbeb2f8, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1326750892
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300052, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1326750889}
-  m_Mesh: {fileID: 4300054, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
 --- !u!1001 &1353218570
 Prefab:
   m_ObjectHideFlags: 0
@@ -4065,194 +2015,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_RootGameObject: {fileID: 371925173}
   m_IsPrefabParent: 0
---- !u!1 &1359620264
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1925037820}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1359620265}
-  - 33: {fileID: 1359620267}
-  - 23: {fileID: 1359620266}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (18)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1359620265
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1925037820}
-  m_GameObject: {fileID: 1359620264}
-  m_LocalRotation: {x: .566372037, y: .423347235, z: .423347235, w: -.566371858}
-  m_LocalPosition: {x: 57.4000015, y: 3, z: -6.22738218}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 25
---- !u!23 &1359620266
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1925037820}
-  m_GameObject: {fileID: 1359620264}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1359620267
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1925037820}
-  m_GameObject: {fileID: 1359620264}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &1426548622
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 928545075}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1426548623}
-  - 33: {fileID: 1426548625}
-  - 23: {fileID: 1426548624}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1426548623
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 928545075}
-  m_GameObject: {fileID: 1426548622}
-  m_LocalRotation: {x: .0799931437, y: .702567518, z: .702567518, w: -.0799931288}
-  m_LocalPosition: {x: 29.7000008, y: 3, z: 26.2424927}
-  m_LocalScale: {x: .80000037, y: .800000012, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 29
---- !u!23 &1426548624
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 928545075}
-  m_GameObject: {fileID: 1426548622}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1426548625
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 928545075}
-  m_GameObject: {fileID: 1426548622}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &1440478837
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100052, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1440478840}
-  - 33: {fileID: 1440478839}
-  - 23: {fileID: 1440478838}
-  m_Layer: 0
-  m_Name: ColosseumPiece_02.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &1440478838
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300050, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1440478837}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 093eb44511613bf48b983b60fbbeb2f8, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1440478839
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300050, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1440478837}
-  m_Mesh: {fileID: 4300056, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!4 &1440478840
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400052, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1440478837}
-  m_LocalRotation: {x: -.703308225, y: -.0731955469, z: -.0731955469, w: .703308225}
-  m_LocalPosition: {x: 29.803997, y: 0, z: -26.1434021}
-  m_LocalScale: {x: 1, y: .99999994, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 50
 --- !u!1001 &1441512459
 Prefab:
   m_ObjectHideFlags: 0
@@ -4318,7 +2081,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 81164951}
   m_IsPrefabParent: 0
 --- !u!1001 &1475236702
 Prefab:
@@ -4373,327 +2135,11 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 124657365}
   m_IsPrefabParent: 0
---- !u!1 &1480540570
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100008, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1480540571}
-  - 33: {fileID: 1480540573}
-  - 23: {fileID: 1480540572}
-  m_Layer: 0
-  m_Name: Colosseum_BasicStand03.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1480540571
+--- !u!4 &1508425280 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400008, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1480540570}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 5
---- !u!23 &1480540572
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300008, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1480540570}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 81293df901d905242885ec3e60260338, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1480540573
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300008, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1480540570}
-  m_Mesh: {fileID: 4300022, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!4 &1508425280
-Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400030, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
   m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 702446433}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1866642154}
-  - {fileID: 1971709463}
-  - {fileID: 415304561}
-  - {fileID: 1262524307}
-  - {fileID: 2112422285}
-  - {fileID: 1480540571}
-  - {fileID: 1689854934}
-  - {fileID: 570743426}
-  - {fileID: 1851893127}
-  - {fileID: 1179575147}
-  - {fileID: 425165976}
-  - {fileID: 1989597656}
-  - {fileID: 1290683061}
-  - {fileID: 325503500}
-  - {fileID: 1533702155}
-  - {fileID: 1663371519}
-  - {fileID: 341989776}
-  - {fileID: 1230166206}
-  - {fileID: 1807000505}
-  - {fileID: 1856451768}
-  - {fileID: 923436210}
-  - {fileID: 278546050}
-  - {fileID: 695780530}
-  - {fileID: 81164952}
-  - {fileID: 1697605114}
-  - {fileID: 1359620265}
-  - {fileID: 1709203078}
-  - {fileID: 654834959}
-  - {fileID: 371388428}
-  - {fileID: 1426548623}
-  - {fileID: 2030736538}
-  - {fileID: 1089724931}
-  - {fileID: 233507551}
-  - {fileID: 899533076}
-  - {fileID: 2087463444}
-  - {fileID: 1945767346}
-  - {fileID: 752244225}
-  - {fileID: 124657366}
-  - {fileID: 439817141}
-  - {fileID: 1237100490}
-  - {fileID: 1585285014}
-  - {fileID: 1820593508}
-  - {fileID: 185282240}
-  - {fileID: 1600477770}
-  - {fileID: 971530989}
-  - {fileID: 371925174}
-  - {fileID: 35302765}
-  - {fileID: 1154976709}
-  - {fileID: 1018440117}
-  - {fileID: 1770035283}
-  - {fileID: 1440478840}
-  - {fileID: 1326750890}
-  - {fileID: 563458180}
-  - {fileID: 1775526300}
-  - {fileID: 2120120284}
-  - {fileID: 1302941517}
-  - {fileID: 528423127}
-  - {fileID: 682844517}
-  - {fileID: 1835360529}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
---- !u!1 &1533702154
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100028, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1533702155}
-  - 33: {fileID: 1533702157}
-  - 23: {fileID: 1533702156}
-  m_Layer: 0
-  m_Name: Colosseum_SunBlocks.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1533702155
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400028, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1533702154}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 14
---- !u!23 &1533702156
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300028, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1533702154}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 0a74cb6d9d8347f498c965d6919c81e3, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1533702157
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300028, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1533702154}
-  m_Mesh: {fileID: 4300004, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &1585285013
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1295995364}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1585285014}
-  - 33: {fileID: 1585285016}
-  - 23: {fileID: 1585285015}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1585285014
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1295995364}
-  m_GameObject: {fileID: 1585285013}
-  m_LocalRotation: {x: -.173172608, y: .685573697, z: .685573697, w: .173172623}
-  m_LocalPosition: {x: -41.3100014, y: 3, z: 22.7399998}
-  m_LocalScale: {x: .800000548, y: .800000131, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 40
---- !u!23 &1585285015
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1295995364}
-  m_GameObject: {fileID: 1585285013}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1585285016
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1295995364}
-  m_GameObject: {fileID: 1585285013}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &1600477769
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1894379219}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1600477770}
-  - 33: {fileID: 1600477772}
-  - 23: {fileID: 1600477771}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1600477770
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1894379219}
-  m_GameObject: {fileID: 1600477769}
-  m_LocalRotation: {x: -1.63912785e-06, y: .707106829, z: .707106829, w: 1.67638075e-06}
-  m_LocalPosition: {x: -5, y: 3, z: 29}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 43
---- !u!23 &1600477771
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1894379219}
-  m_GameObject: {fileID: 1600477769}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1600477772
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1894379219}
-  m_GameObject: {fileID: 1600477769}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
 --- !u!1001 &1617528886
 Prefab:
   m_ObjectHideFlags: 0
@@ -4759,318 +2205,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 752244224}
   m_IsPrefabParent: 0
---- !u!1 &1663371518
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100032, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1663371519}
-  - 33: {fileID: 1663371521}
-  - 23: {fileID: 1663371520}
-  m_Layer: 0
-  m_Name: ColosseumMainGate_Coloseum_01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1663371519
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400032, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1663371518}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 72, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 15
---- !u!23 &1663371520
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300030, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1663371518}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 6dbf4931a9cba1147bdc7ef942cb7b7f, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1663371521
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300030, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1663371518}
-  m_Mesh: {fileID: 4300026, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &1689854933
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100010, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1689854934}
-  - 33: {fileID: 1689854936}
-  - 23: {fileID: 1689854935}
-  m_Layer: 0
-  m_Name: Colosseum_BasicStand03_Piece.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1689854934
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400010, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1689854933}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 6
---- !u!23 &1689854935
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300010, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1689854933}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 6dbf4931a9cba1147bdc7ef942cb7b7f, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1689854936
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300010, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1689854933}
-  m_Mesh: {fileID: 4300042, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &1697605113
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1735571315}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1697605114}
-  - 33: {fileID: 1697605116}
-  - 23: {fileID: 1697605115}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (19)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1697605114
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 1735571315}
-  m_GameObject: {fileID: 1697605113}
-  m_LocalRotation: {x: .645811439, y: .287971705, z: .287971646, w: -.64581126}
-  m_LocalPosition: {x: 51.2000008, y: 3, z: -16.3874111}
-  m_LocalScale: {x: .80000031, y: .800000668, z: .800000548}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 24
---- !u!23 &1697605115
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1735571315}
-  m_GameObject: {fileID: 1697605113}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1697605116
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 1735571315}
-  m_GameObject: {fileID: 1697605113}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &1702554007
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
-  m_PrefabInternal: {fileID: 262338999}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1702554008}
-  - 33: {fileID: 1702554010}
-  - 23: {fileID: 1702554009}
-  m_Layer: 0
-  m_Name: CaesarPilar_Accessories
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1702554008
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
-  m_PrefabInternal: {fileID: 262338999}
-  m_GameObject: {fileID: 1702554007}
-  m_LocalRotation: {x: 0, y: 7.45058149e-09, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -2.38418579e-07, z: 9.53674316e-07}
-  m_LocalScale: {x: 1.99999976, y: 2, z: 2}
-  m_Children: []
-  m_Father: {fileID: 1770035283}
-  m_RootOrder: 0
---- !u!23 &1702554009
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300002, guid: 5cf817b5437b09a45ad09760c6e36953,
-    type: 3}
-  m_PrefabInternal: {fileID: 262338999}
-  m_GameObject: {fileID: 1702554007}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: f0ff48ed181c6c84e8774048344dabcc, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1702554010
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300002, guid: 5cf817b5437b09a45ad09760c6e36953,
-    type: 3}
-  m_PrefabInternal: {fileID: 262338999}
-  m_GameObject: {fileID: 1702554007}
-  m_Mesh: {fileID: 4300002, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
---- !u!1 &1709203077
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 114876149}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1709203078}
-  - 33: {fileID: 1709203080}
-  - 23: {fileID: 1709203079}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (17)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1709203078
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 114876149}
-  m_GameObject: {fileID: 1709203077}
-  m_LocalRotation: {x: .417503387, y: .570693374, z: .570693433, w: -.417503297}
-  m_LocalPosition: {x: 57.2000008, y: 3, z: 5.84261274}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 26
---- !u!23 &1709203079
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 114876149}
-  m_GameObject: {fileID: 1709203077}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1709203080
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 114876149}
-  m_GameObject: {fileID: 1709203077}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
 --- !u!1001 &1735571315
 Prefab:
   m_ObjectHideFlags: 0
@@ -5092,19 +2227,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: .645811498
+      value: .645811439
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: .287971735
+      value: .287971705
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: .287971675
+      value: .287971646
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -.645811319
+      value: -.64581126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
       propertyPath: m_RootOrder
@@ -5136,133 +2271,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 1697605113}
   m_IsPrefabParent: 0
---- !u!1 &1770035282
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
-  m_PrefabInternal: {fileID: 262338999}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1770035283}
-  - 33: {fileID: 1770035285}
-  - 23: {fileID: 1770035284}
-  m_Layer: 0
-  m_Name: CaesarPilar_01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1770035283
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
-  m_PrefabInternal: {fileID: 262338999}
-  m_GameObject: {fileID: 1770035282}
-  m_LocalRotation: {x: -2.70177793e-07, y: .707106829, z: .707106769, w: 2.60770349e-07}
-  m_LocalPosition: {x: -3, y: 3, z: 27.6000004}
-  m_LocalScale: {x: .5, y: .5, z: .5}
-  m_Children:
-  - {fileID: 1702554008}
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 49
---- !u!23 &1770035284
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 5cf817b5437b09a45ad09760c6e36953,
-    type: 3}
-  m_PrefabInternal: {fileID: 262338999}
-  m_GameObject: {fileID: 1770035282}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: bb3e61cad8e7f414892bb47f16fac0da, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1770035285
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 5cf817b5437b09a45ad09760c6e36953,
-    type: 3}
-  m_PrefabInternal: {fileID: 262338999}
-  m_GameObject: {fileID: 1770035282}
-  m_Mesh: {fileID: 4300000, guid: 5cf817b5437b09a45ad09760c6e36953, type: 3}
---- !u!1 &1775526299
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100046, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1775526300}
-  - 33: {fileID: 1775526302}
-  - 23: {fileID: 1775526301}
-  m_Layer: 0
-  m_Name: Rome_Column_Colosseum
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1775526300
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400046, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1775526299}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 3, y: 54.2530899, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 53
---- !u!23 &1775526301
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300044, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1775526299}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: bb3e61cad8e7f414892bb47f16fac0da, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1775526302
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300044, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1775526299}
-  m_Mesh: {fileID: 4300006, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
 --- !u!1001 &1799598765
 Prefab:
   m_ObjectHideFlags: 0
@@ -5300,7 +2309,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2300034, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5544,7 +2553,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 400044, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
       propertyPath: m_RootOrder
@@ -5552,19 +2561,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400042, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 400038, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 400058, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 2300046, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5614,321 +2623,21 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 400056, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
+      propertyPath: m_RootOrder
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 400054, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 400052, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
+      propertyPath: m_RootOrder
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_RootGameObject: {fileID: 702446433}
   m_IsPrefabParent: 0
---- !u!1 &1807000504
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100050, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1807000505}
-  - 33: {fileID: 1807000507}
-  - 23: {fileID: 1807000506}
-  m_Layer: 0
-  m_Name: ColosseumMainGateInside.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1807000505
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400050, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1807000504}
-  m_LocalRotation: {x: -.50000006, y: .5, z: .5, w: .50000006}
-  m_LocalPosition: {x: -56.8408813, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 18
---- !u!23 &1807000506
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300048, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1807000504}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 093eb44511613bf48b983b60fbbeb2f8, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1807000507
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300048, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1807000504}
-  m_Mesh: {fileID: 4300046, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &1820593507
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 504464625}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1820593508}
-  - 33: {fileID: 1820593510}
-  - 23: {fileID: 1820593509}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1820593508
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 504464625}
-  m_GameObject: {fileID: 1820593507}
-  m_LocalRotation: {x: -.093108885, y: .700949907, z: .700949907, w: .0931089222}
-  m_LocalPosition: {x: -29.9099998, y: 3, z: 26.3600006}
-  m_LocalScale: {x: .800000548, y: .799999833, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 41
---- !u!23 &1820593509
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 504464625}
-  m_GameObject: {fileID: 1820593507}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1820593510
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 504464625}
-  m_GameObject: {fileID: 1820593507}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &1835360528
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100058, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1835360529}
-  - 33: {fileID: 1835360531}
-  - 23: {fileID: 1835360530}
-  m_Layer: 0
-  m_Name: ColosseumPiece_02.005
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1835360529
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400058, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1835360528}
-  m_LocalRotation: {x: -.690458834, y: .152533919, z: .152533919, w: .690458834}
-  m_LocalPosition: {x: -41.167038, y: 7.34841032e-09, z: -22.5450401}
-  m_LocalScale: {x: .999999881, y: .999999881, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 58
---- !u!23 &1835360530
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300056, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1835360528}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 093eb44511613bf48b983b60fbbeb2f8, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1835360531
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300056, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1835360528}
-  m_Mesh: {fileID: 4300050, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &1851893126
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100014, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1851893127}
-  - 33: {fileID: 1851893129}
-  - 23: {fileID: 1851893128}
-  m_Layer: 0
-  m_Name: Colosseum_Caesar.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1851893127
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400014, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1851893126}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1266638201}
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 8
---- !u!23 &1851893128
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300014, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1851893126}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 6dbf4931a9cba1147bdc7ef942cb7b7f, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1851893129
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300014, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1851893126}
-  m_Mesh: {fileID: 4300034, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &1856451767
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100036, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1856451768}
-  - 33: {fileID: 1856451770}
-  - 23: {fileID: 1856451769}
-  m_Layer: 0
-  m_Name: ColosseumPiece_01.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1856451768
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400036, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1856451767}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 19
---- !u!23 &1856451769
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300034, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1856451767}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 6dbf4931a9cba1147bdc7ef942cb7b7f, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1856451770
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300034, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1856451767}
-  m_Mesh: {fileID: 4300040, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
 --- !u!1001 &1862831694
 Prefab:
   m_ObjectHideFlags: 0
@@ -5982,70 +2691,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6447592837fa5044aa288607ea79c145, type: 3}
-  m_RootGameObject: {fileID: 971530988}
   m_IsPrefabParent: 0
---- !u!1 &1866642153
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1866642154}
-  - 33: {fileID: 1866642156}
-  - 23: {fileID: 1866642155}
-  m_Layer: 0
-  m_Name: Caesar_Cabin.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1866642154
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1866642153}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 0, y: 3, z: .888040662}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 0
---- !u!23 &1866642155
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1866642153}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 228fb5886969d3c43bc10411a87c79a0, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1866642156
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1866642153}
-  m_Mesh: {fileID: 4300008, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
 --- !u!1 &1888647718
 GameObject:
   m_ObjectHideFlags: 0
@@ -6155,7 +2801,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 1600477769}
   m_IsPrefabParent: 0
 --- !u!1001 &1925037820
 Prefab:
@@ -6218,194 +2863,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 1359620264}
   m_IsPrefabParent: 0
---- !u!1 &1945767345
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 548434220}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1945767346}
-  - 33: {fileID: 1945767348}
-  - 23: {fileID: 1945767347}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1945767346
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 548434220}
-  m_GameObject: {fileID: 1945767345}
-  m_LocalRotation: {x: -.696755648, y: .120547026, z: .120547026, w: .696755648}
-  m_LocalPosition: {x: -41.25, y: 3, z: -22.7999992}
-  m_LocalScale: {x: .800000191, y: .800000012, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 35
---- !u!23 &1945767347
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 548434220}
-  m_GameObject: {fileID: 1945767345}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1945767348
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 548434220}
-  m_GameObject: {fileID: 1945767345}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &1971709462
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1971709463}
-  - 33: {fileID: 1971709465}
-  - 23: {fileID: 1971709464}
-  m_Layer: 0
-  m_Name: Colosseum_BasicStand.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1971709463
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1971709462}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 1
---- !u!23 &1971709464
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300002, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1971709462}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 81293df901d905242885ec3e60260338, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1971709465
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300002, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1971709462}
-  m_Mesh: {fileID: 4300032, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &1989597655
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100022, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1989597656}
-  - 33: {fileID: 1989597658}
-  - 23: {fileID: 1989597657}
-  m_Layer: 0
-  m_Name: Colosseum_StandSunBlock01.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1989597656
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400022, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1989597655}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 32, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 11
---- !u!23 &1989597657
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300022, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1989597655}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 0a74cb6d9d8347f498c965d6919c81e3, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1989597658
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300022, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 1989597655}
-  m_Mesh: {fileID: 4300014, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
 --- !u!1001 &2020220465
 Prefab:
   m_ObjectHideFlags: 0
@@ -6471,253 +2929,4 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_RootGameObject: {fileID: 923436209}
   m_IsPrefabParent: 0
---- !u!1 &2030736537
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 241805209}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2030736538}
-  - 33: {fileID: 2030736540}
-  - 23: {fileID: 2030736539}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2030736538
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 241805209}
-  m_GameObject: {fileID: 2030736537}
-  m_LocalRotation: {x: .0380624831, y: .706081629, z: .706081629, w: -.0380624123}
-  m_LocalPosition: {x: 17.7999992, y: 3, z: 28.032444}
-  m_LocalScale: {x: .80000037, y: .800000191, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 30
---- !u!23 &2030736539
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 241805209}
-  m_GameObject: {fileID: 2030736537}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &2030736540
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 241805209}
-  m_GameObject: {fileID: 2030736537}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &2087463443
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 912557697}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2087463444}
-  - 33: {fileID: 2087463446}
-  - 23: {fileID: 2087463445}
-  m_Layer: 0
-  m_Name: Colosseum_Flag_01 (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2087463444
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
-  m_PrefabInternal: {fileID: 912557697}
-  m_GameObject: {fileID: 2087463443}
-  m_LocalRotation: {x: -.702567339, y: .0799948275, z: .0799948275, w: .702567339}
-  m_LocalPosition: {x: -29.8199997, y: 3, z: -26.4400005}
-  m_LocalScale: {x: .80000037, y: .799999833, z: .800000012}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 34
---- !u!23 &2087463445
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 912557697}
-  m_GameObject: {fileID: 2087463443}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &2087463446
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0,
-    type: 3}
-  m_PrefabInternal: {fileID: 912557697}
-  m_GameObject: {fileID: 2087463443}
-  m_Mesh: {fileID: 4300000, guid: 7c4722cfe0deb944885bc4fac64dc4e0, type: 3}
---- !u!1 &2112422284
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100006, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2112422285}
-  - 33: {fileID: 2112422287}
-  - 23: {fileID: 2112422286}
-  m_Layer: 0
-  m_Name: Colosseum_BasicStand02_Piece.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2112422285
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400006, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 2112422284}
-  m_LocalRotation: {x: -.707106829, y: -5.7601163e-08, z: -5.7601163e-08, w: .707106829}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 4
---- !u!23 &2112422286
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300006, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 2112422284}
-  m_Enabled: 1
-  m_CastShadows: 2
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 6dbf4931a9cba1147bdc7ef942cb7b7f, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &2112422287
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300006, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 2112422284}
-  m_Mesh: {fileID: 4300044, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
---- !u!1 &2120120283
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100044, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2120120284}
-  - 33: {fileID: 2120120286}
-  - 23: {fileID: 2120120285}
-  m_Layer: 0
-  m_Name: Maingate_Wood.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2120120284
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400044, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 2120120283}
-  m_LocalRotation: {x: -.50000006, y: -.5, z: -.5, w: .50000006}
-  m_LocalPosition: {x: -57.5668983, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1508425280}
-  m_RootOrder: 54
---- !u!23 &2120120285
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300042, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 2120120283}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 3fe840d794a01f647ab95763306cae61, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &2120120286
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300042, guid: d838bba1798e1694c85bdf850bd9ffb4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1799598765}
-  m_GameObject: {fileID: 2120120283}
-  m_Mesh: {fileID: 4300002, guid: d838bba1798e1694c85bdf850bd9ffb4, type: 3}
