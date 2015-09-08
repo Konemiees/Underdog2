@@ -95,6 +95,11 @@ ModelImporter:
     100174: ColosseumPiece_02.003
     100176: ColosseumPiece_02.004
     100178: ColosseumPiece_02.005
+    100180: Cloth_Lower_01.001
+    100182: Cloth_Lower_02.001
+    100184: Cloth_Upper.001
+    100186: Shield.001
+    100188: Colosseum_BasicStand04.004
     400000: Caesar_Cabin
     400002: //RootNode
     400004: Colosseum_BasicStand.001
@@ -185,6 +190,11 @@ ModelImporter:
     400174: ColosseumPiece_02.003
     400176: ColosseumPiece_02.004
     400178: ColosseumPiece_02.005
+    400180: Cloth_Lower_01.001
+    400182: Cloth_Lower_02.001
+    400184: Cloth_Upper.001
+    400186: Shield.001
+    400188: Colosseum_BasicStand04.004
     2300000: Caesar_Cabin
     2300002: Colosseum_BasicStand.001
     2300004: Colosseum_BasicStand02.001
@@ -274,6 +284,11 @@ ModelImporter:
     2300172: ColosseumPiece_02.003
     2300174: ColosseumPiece_02.004
     2300176: ColosseumPiece_02.005
+    2300178: Cloth_Lower_01.001
+    2300180: Cloth_Lower_02.001
+    2300182: Cloth_Upper.001
+    2300184: Shield.001
+    2300186: Colosseum_BasicStand04.004
     3300000: Caesar_Cabin
     3300002: Colosseum_BasicStand.001
     3300004: Colosseum_BasicStand02.001
@@ -363,6 +378,11 @@ ModelImporter:
     3300172: ColosseumPiece_02.003
     3300174: ColosseumPiece_02.004
     3300176: ColosseumPiece_02.005
+    3300178: Cloth_Lower_01.001
+    3300180: Cloth_Lower_02.001
+    3300182: Cloth_Upper.001
+    3300184: Shield.001
+    3300186: Colosseum_BasicStand04.004
     4300000: ColosseumPiece_02.002
     4300002: ColosseumMainGate.002
     4300004: Piece2_SmallGate.005
@@ -452,6 +472,11 @@ ModelImporter:
     4300172: ColosseumPiece_01.004
     4300174: ColosseumPiece_01.003
     4300176: ColosseumPiece_01.002
+    4300178: Shield.001
+    4300180: Cloth_Upper.001
+    4300182: Cloth_Lower_02.001
+    4300184: Cloth_Lower_01.001
+    4300186: Colosseum_BasicStand04.004
   materials:
     importMaterials: 1
     materialName: 0
