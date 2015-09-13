@@ -58,17 +58,17 @@ LightmapSettings:
   m_LightmapEditorSettings:
     serializedVersion: 3
     m_Resolution: 2
-    m_BakeResolution: 20
+    m_BakeResolution: 40
     m_TextureWidth: 1024
     m_TextureHeight: 1024
     m_AOMaxDistance: 1
     m_Padding: 2
-    m_CompAOExponent: 1.70000005
+    m_CompAOExponent: 1
     m_LightmapParameters: {fileID: 0}
     m_TextureCompression: 1
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
-  m_LightmapSnapshot: {fileID: 112000000, guid: 1f34eae6ee4c97e4ba6fd125b91bea3f,
+  m_LightmapSnapshot: {fileID: 112000000, guid: a96356dbe60a0c449acc365155760a7a,
     type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &5

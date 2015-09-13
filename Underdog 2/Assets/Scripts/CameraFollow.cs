@@ -37,7 +37,7 @@ public class CameraFollow : MonoBehaviour
 		cam = Camera.main;
 	}
 	
-	void FixedUpdate ()
+	void LateUpdate ()
 	{
 
 
