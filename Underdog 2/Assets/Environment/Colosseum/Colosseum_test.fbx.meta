@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d838bba1798e1694c85bdf850bd9ffb4
-timeCreated: 1439367196
+timeCreated: 1441191924
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -15,27 +15,28 @@ ModelImporter:
     100014: Colosseum_Caesar.001
     100016: Colosseum_Caesar_Reliefs.001
     100018: Colosseum_Caesar_Stairs.001
-    100020: Colosseum_StandSunBlock01.001
-    100022: Colosseum_StandSunBlock01.002
-    100024: Colosseum_StandSunBlock02.001
-    100026: Colosseum_StandSunBlock02.002
-    100028: Colosseum_SunBlocks.001
-    100030: //RootNode
-    100032: ColosseumMainGate_Coloseum_01
-    100034: ColosseumMainGate_Stand.001
-    100036: ColosseumPiece_01.001
-    100038: ColosseumPiece_02_Coloseum
-    100040: ColosseumPiece_02_Coloseum_Gates
-    100042: Maingate_Wood.001
-    100044: Maingate_Wood.002
-    100046: Rome_Column_Colosseum
-    100048: ColosseumMainGateInside.001
-    100050: ColosseumMainGateInside.002
-    100052: ColosseumPiece_02.002
-    100054: ColosseumPiece_02.003
-    100056: ColosseumPiece_02.004
-    100058: ColosseumPiece_02.005
-    100060: Colosseum_BasicStand.003
+    100020: Colosseum_SunBlock02_low.002
+    100022: Colosseum_SunBlock02_low.003
+    100024: Colosseum_SunBlock02_low.004
+    100026: Colosseum_SunBlock02_low.005
+    100028: Colosseum_SunBlock02_low.007
+    100030: Colosseum_SunBlocks.001
+    100032: //RootNode
+    100034: ColosseumMainGate_Coloseum_01
+    100036: ColosseumMainGate_Stand.001
+    100038: ColosseumMainGateInside.001
+    100040: ColosseumMainGateInside.002
+    100042: ColosseumPiece_01.001
+    100044: ColosseumPiece_02.002
+    100046: ColosseumPiece_02.003
+    100048: ColosseumPiece_02.004
+    100050: ColosseumPiece_02.005
+    100052: ColosseumPiece_02_Coloseum
+    100054: ColosseumPiece_02_Coloseum_Gates
+    100056: Maingate_Wood.001
+    100058: Maingate_Wood.002
+    100060: Rome_Column_Colosseum
+    100062: Colosseum_SunBlock02_low.008
     400000: Caesar_Cabin.001
     400002: Colosseum_BasicStand.001
     400004: Colosseum_BasicStand02.001
@@ -46,27 +47,28 @@ ModelImporter:
     400014: Colosseum_Caesar.001
     400016: Colosseum_Caesar_Reliefs.001
     400018: Colosseum_Caesar_Stairs.001
-    400020: Colosseum_StandSunBlock01.001
-    400022: Colosseum_StandSunBlock01.002
-    400024: Colosseum_StandSunBlock02.001
-    400026: Colosseum_StandSunBlock02.002
-    400028: Colosseum_SunBlocks.001
-    400030: //RootNode
-    400032: ColosseumMainGate_Coloseum_01
-    400034: ColosseumMainGate_Stand.001
-    400036: ColosseumPiece_01.001
-    400038: ColosseumPiece_02_Coloseum
-    400040: ColosseumPiece_02_Coloseum_Gates
-    400042: Maingate_Wood.001
-    400044: Maingate_Wood.002
-    400046: Rome_Column_Colosseum
-    400048: ColosseumMainGateInside.001
-    400050: ColosseumMainGateInside.002
-    400052: ColosseumPiece_02.002
-    400054: ColosseumPiece_02.003
-    400056: ColosseumPiece_02.004
-    400058: ColosseumPiece_02.005
-    400060: Colosseum_BasicStand.003
+    400020: Colosseum_SunBlock02_low.002
+    400022: Colosseum_SunBlock02_low.003
+    400024: Colosseum_SunBlock02_low.004
+    400026: Colosseum_SunBlock02_low.005
+    400028: Colosseum_SunBlock02_low.007
+    400030: Colosseum_SunBlocks.001
+    400032: //RootNode
+    400034: ColosseumMainGate_Coloseum_01
+    400036: ColosseumMainGate_Stand.001
+    400038: ColosseumMainGateInside.001
+    400040: ColosseumMainGateInside.002
+    400042: ColosseumPiece_01.001
+    400044: ColosseumPiece_02.002
+    400046: ColosseumPiece_02.003
+    400048: ColosseumPiece_02.004
+    400050: ColosseumPiece_02.005
+    400052: ColosseumPiece_02_Coloseum
+    400054: ColosseumPiece_02_Coloseum_Gates
+    400056: Maingate_Wood.001
+    400058: Maingate_Wood.002
+    400060: Rome_Column_Colosseum
+    400062: Colosseum_SunBlock02_low.008
     2300000: Caesar_Cabin.001
     2300002: Colosseum_BasicStand.001
     2300004: Colosseum_BasicStand02.001
@@ -77,26 +79,27 @@ ModelImporter:
     2300014: Colosseum_Caesar.001
     2300016: Colosseum_Caesar_Reliefs.001
     2300018: Colosseum_Caesar_Stairs.001
-    2300020: Colosseum_StandSunBlock01.001
-    2300022: Colosseum_StandSunBlock01.002
-    2300024: Colosseum_StandSunBlock02.001
-    2300026: Colosseum_StandSunBlock02.002
-    2300028: Colosseum_SunBlocks.001
-    2300030: ColosseumMainGate_Coloseum_01
-    2300032: ColosseumMainGate_Stand.001
-    2300034: ColosseumPiece_01.001
-    2300036: ColosseumPiece_02_Coloseum
-    2300038: ColosseumPiece_02_Coloseum_Gates
-    2300040: Maingate_Wood.001
-    2300042: Maingate_Wood.002
-    2300044: Rome_Column_Colosseum
-    2300046: ColosseumMainGateInside.001
-    2300048: ColosseumMainGateInside.002
-    2300050: ColosseumPiece_02.002
-    2300052: ColosseumPiece_02.003
-    2300054: ColosseumPiece_02.004
-    2300056: ColosseumPiece_02.005
-    2300058: Colosseum_BasicStand.003
+    2300020: Colosseum_SunBlock02_low.002
+    2300022: Colosseum_SunBlock02_low.003
+    2300024: Colosseum_SunBlock02_low.004
+    2300026: Colosseum_SunBlock02_low.005
+    2300028: Colosseum_SunBlock02_low.007
+    2300030: Colosseum_SunBlocks.001
+    2300032: ColosseumMainGate_Coloseum_01
+    2300034: ColosseumMainGate_Stand.001
+    2300036: ColosseumMainGateInside.001
+    2300038: ColosseumMainGateInside.002
+    2300040: ColosseumPiece_01.001
+    2300042: ColosseumPiece_02.002
+    2300044: ColosseumPiece_02.003
+    2300046: ColosseumPiece_02.004
+    2300048: ColosseumPiece_02.005
+    2300050: ColosseumPiece_02_Coloseum
+    2300052: ColosseumPiece_02_Coloseum_Gates
+    2300054: Maingate_Wood.001
+    2300056: Maingate_Wood.002
+    2300058: Rome_Column_Colosseum
+    2300060: Colosseum_SunBlock02_low.008
     3300000: Caesar_Cabin.001
     3300002: Colosseum_BasicStand.001
     3300004: Colosseum_BasicStand02.001
@@ -107,56 +110,58 @@ ModelImporter:
     3300014: Colosseum_Caesar.001
     3300016: Colosseum_Caesar_Reliefs.001
     3300018: Colosseum_Caesar_Stairs.001
-    3300020: Colosseum_StandSunBlock01.001
-    3300022: Colosseum_StandSunBlock01.002
-    3300024: Colosseum_StandSunBlock02.001
-    3300026: Colosseum_StandSunBlock02.002
-    3300028: Colosseum_SunBlocks.001
-    3300030: ColosseumMainGate_Coloseum_01
-    3300032: ColosseumMainGate_Stand.001
-    3300034: ColosseumPiece_01.001
-    3300036: ColosseumPiece_02_Coloseum
-    3300038: ColosseumPiece_02_Coloseum_Gates
-    3300040: Maingate_Wood.001
-    3300042: Maingate_Wood.002
-    3300044: Rome_Column_Colosseum
-    3300046: ColosseumMainGateInside.001
-    3300048: ColosseumMainGateInside.002
-    3300050: ColosseumPiece_02.002
-    3300052: ColosseumPiece_02.003
-    3300054: ColosseumPiece_02.004
-    3300056: ColosseumPiece_02.005
-    3300058: Colosseum_BasicStand.003
-    4300000: ColosseumPiece_02_Coloseum_Gates
-    4300002: Maingate_Wood.002
-    4300004: Colosseum_SunBlocks.001
-    4300006: Rome_Column_Colosseum
-    4300008: Caesar_Cabin.001
-    4300010: Colosseum_StandSunBlock02.002
-    4300012: Colosseum_StandSunBlock02.001
-    4300014: Colosseum_StandSunBlock01.002
-    4300016: Colosseum_StandSunBlock01.001
-    4300018: ColosseumPiece_02_Coloseum
-    4300020: Colosseum_BasicStand04.001
-    4300022: Colosseum_BasicStand03.001
-    4300024: Colosseum_BasicStand02.001
-    4300026: ColosseumMainGate_Coloseum_01
-    4300028: ColosseumMainGate_Stand.001
-    4300030: Maingate_Wood.001
-    4300032: Colosseum_BasicStand.001
-    4300034: Colosseum_Caesar.001
-    4300036: Colosseum_Caesar_Stairs.001
-    4300038: Colosseum_Caesar_Reliefs.001
-    4300040: ColosseumPiece_01.001
-    4300042: Colosseum_BasicStand03_Piece.001
-    4300044: Colosseum_BasicStand02_Piece.001
-    4300046: ColosseumMainGateInside.002
-    4300048: ColosseumMainGateInside.001
-    4300050: ColosseumPiece_02.005
-    4300052: ColosseumPiece_02.004
-    4300054: ColosseumPiece_02.003
-    4300056: ColosseumPiece_02.002
-    4300058: Colosseum_BasicStand.003
+    3300020: Colosseum_SunBlock02_low.002
+    3300022: Colosseum_SunBlock02_low.003
+    3300024: Colosseum_SunBlock02_low.004
+    3300026: Colosseum_SunBlock02_low.005
+    3300028: Colosseum_SunBlock02_low.007
+    3300030: Colosseum_SunBlocks.001
+    3300032: ColosseumMainGate_Coloseum_01
+    3300034: ColosseumMainGate_Stand.001
+    3300036: ColosseumMainGateInside.001
+    3300038: ColosseumMainGateInside.002
+    3300040: ColosseumPiece_01.001
+    3300042: ColosseumPiece_02.002
+    3300044: ColosseumPiece_02.003
+    3300046: ColosseumPiece_02.004
+    3300048: ColosseumPiece_02.005
+    3300050: ColosseumPiece_02_Coloseum
+    3300052: ColosseumPiece_02_Coloseum_Gates
+    3300054: Maingate_Wood.001
+    3300056: Maingate_Wood.002
+    3300058: Rome_Column_Colosseum
+    3300060: Colosseum_SunBlock02_low.008
+    4300000: ColosseumMainGateInside.002
+    4300002: ColosseumMainGateInside.001
+    4300004: ColosseumPiece_02.005
+    4300006: ColosseumPiece_02.004
+    4300008: ColosseumPiece_02.003
+    4300010: ColosseumPiece_02.002
+    4300012: ColosseumPiece_02_Coloseum_Gates
+    4300014: Maingate_Wood.002
+    4300016: Colosseum_SunBlocks.001
+    4300018: Rome_Column_Colosseum
+    4300020: Colosseum_SunBlock02_low.007
+    4300022: Colosseum_SunBlock02_low.005
+    4300024: Colosseum_SunBlock02_low.004
+    4300026: Colosseum_SunBlock02_low.003
+    4300028: Colosseum_SunBlock02_low.002
+    4300030: Colosseum_BasicStand.001
+    4300032: Caesar_Cabin.001
+    4300034: ColosseumPiece_02_Coloseum
+    4300036: Colosseum_BasicStand04.001
+    4300038: Colosseum_BasicStand03.001
+    4300040: Colosseum_BasicStand02.001
+    4300042: ColosseumMainGate_Coloseum_01
+    4300044: Maingate_Wood.001
+    4300046: Colosseum_Caesar.001
+    4300048: Colosseum_Caesar_Reliefs.001
+    4300050: ColosseumPiece_01.001
+    4300052: Colosseum_Caesar_Stairs.001
+    4300054: Colosseum_BasicStand03_Piece.001
+    4300056: Colosseum_BasicStand02_Piece.001
+    4300058: ColosseumMainGate_Stand.001
+    4300060: Colosseum_SunBlock02_low.008
   materials:
     importMaterials: 1
     materialName: 0
